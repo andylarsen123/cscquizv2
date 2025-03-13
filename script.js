@@ -97,7 +97,11 @@ const questions = [
     {
         question: "Do you have lots of record?", // Follow-up 13
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>"<a href='https://example.com'>Site condos</a><br>"<a href='https://example.com'>Platting review</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>" +
+          "<a href='https://example.com'>Site condos</a><br>" +
+          "<a href='https://example.com'>Platting review</a><br><br>" +
+          "Click the hyperlink above to learn more <strong>OR</strong><br>" +
+          "click 'Back' and choose 'No' to find a different tool."  },
             { text: "No", followUp: 14 }
         ]
     },
