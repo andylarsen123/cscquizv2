@@ -6,7 +6,7 @@ const questions = [
         question: "Coastal Resilience Compendium Tools: Choose an option",
         answers: [
             { text: "Find the best tool for me", followUp: 1 },
-            { text: "View the full table of tools", result: () => window.location.href = "https://example.com/full-table" }
+            { text: "View the full list of tools", result: () => window.location.href = "https://example.com/full-table" }
         ]
     },
     {
@@ -104,7 +104,7 @@ const questions = [
             { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>" +
           "<a href='https://example.com'>Site condos</a><br>" +
           "<a href='https://example.com'>Platting review</a><br><br>" +
-          "<a href='https://example.com'>Long lots</a><br><br>" +
+          "<a href='https://example.com'>Long lots</a><br>" +
           "Click the hyperlink above to learn more <strong>OR</strong><br>" +
           "click 'Back' and choose 'No' to find a different tool."  },
             { text: "No", followUp: 14 }
