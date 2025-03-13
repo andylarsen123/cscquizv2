@@ -19,49 +19,49 @@ const questions = [
     {
         question: "Can you change the underlying zoning?", // Follow-up 2
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Shoreline overlay district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 3 }
         ]
     },
     {
         question: "Do you anticipate new development or redevelopment?", // Follow-up 3
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Shoreline district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 4 }
         ]
     },
     {
         question: "Does development already exist?", // Follow-up 4
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Floodplain overlau district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 5 }
         ]
     },
     {
         question: "Do you have floodplains?", // Follow-up 5
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Land division regulations</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 6 }
         ]
     },
     {
         question: "Is your property at risk of erosion?", // Follow-up 6
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Bluff protections</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 7 }
         ]
     },
     {
         question: "Are you hearing from property owners that they want to protect their property?", // Follow-up 7
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Armoring prohibition</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 8 }
         ]
     },
     {
         question: "Is this a specific shoreline use like a marina?", // Follow-up 8
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Natural features setback</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 9 }
         ]
     },
@@ -104,28 +104,77 @@ const questions = [
     {
         question: "Do you have wetlands?", // Follow-up 14
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Wetlands protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 15 }
         ]
     },
     {
         question: "Do you have dunes?", // Follow-up 15
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Dune protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 16 }
         ]
     },
     {
         question: "Do you have bluffs?", // Follow-up 16
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Bluff protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 17 }
         ]
     },
     {
         question: "Do you have sensitive environmental areas?", // Follow-up 17
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 18
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 19
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 20
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 21
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 22
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 23
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Do you have sensitive environmental areas?", // Follow-up 24
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
