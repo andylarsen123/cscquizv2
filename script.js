@@ -12,7 +12,7 @@ const questions = [
     {
         question: "Is your shoreline of similar character throughout?", // Follow-up 1
         answers: [
-            { text: "Yes", result: Shoreline setbacks<br><br>Click on the link above to learn more or click "Back" and choose "No" to find a different tool. },
+            { text: "Yes", result: Shoreline setbacks<br><br>Click the hyperlink above to learn more or click "Back" and choose "No" to find a different tool. },
             { text: "No", followUp: 2 }
         ]
     },
