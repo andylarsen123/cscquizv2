@@ -33,7 +33,7 @@ const questions = [
     {
         question: "Does development already exist?", // Follow-up 4
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Floodplain overlau district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Floodplain overlay district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 5 }
         ]
     },
@@ -61,7 +61,7 @@ const questions = [
     {
         question: "Is this a specific shoreline use like a marina?", // Follow-up 8
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Natural features setback</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Special shoreline uses</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 9 }
         ]
     },
@@ -83,21 +83,21 @@ const questions = [
     {
         question: "Do you have capacity and/or desire to implement and review discretionary standards?", // Follow-up 11
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Design guidelines</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 12 }
         ]
     },
     {
         question: "Do you have existing development that doesn't meet the standards you have?", // Follow-up 12
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>Nonconformities and variance standard</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 13 }
         ]
     },
     {
         question: "Do you have lots of record?", // Follow-up 13
         answers: [
-            { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
+            { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>"<a href='https://example.com'>Site condos</a><br>"<a href='https://example.com'>Platting review</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 14 }
         ]
     },
@@ -130,51 +130,37 @@ const questions = [
         ]
     },
       {
-        question: "Do you have sensitive environmental areas?", // Follow-up 18
+        question: "Do you have high-risk erosion areas?", // Follow-up 18
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>High-risk erosion area protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
       {
-        question: "Do you have sensitive environmental areas?", // Follow-up 19
+        question: "Are you concerned about flooding?", // Follow-up 19
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Vegetation requirement</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
       {
-        question: "Do you have sensitive environmental areas?", // Follow-up 20
+        question: "Are you concerned about water quality?", // Follow-up 20
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Stormwater management and/or green infrastructure</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
       {
-        question: "Do you have sensitive environmental areas?", // Follow-up 21
+        question: "Is it a priority to preserve or create access?", // Follow-up 21
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Impervious surface standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
       {
-        question: "Do you have sensitive environmental areas?", // Follow-up 22
+        question: "Do you have sensitive, constantly evolving environmental areas?", // Follow-up 22
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
-        ]
-    },
-      {
-        question: "Do you have sensitive environmental areas?", // Follow-up 23
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
-        ]
-    },
-      {
-        question: "Do you have sensitive environmental areas?", // Follow-up 24
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'>Dynamic zoning</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
