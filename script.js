@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { text: "No", followUp: 2 },
       ]
     },
-      {
+    {
       question: "Can you change the underlying zoning?", // this is followup 2
       answers: [
         { text: "Yes", result: result: () => window.location.href = "https://example.com/full-table" },
