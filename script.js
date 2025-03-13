@@ -66,10 +66,15 @@ const questions = [
         ]
     },
     {
-        question: "Are you looking to affect the district or the site?", // Follow-up 9
+        question: "Are you looking to affect a district?", // Follow-up 9
         answers: [
-            { text: "District", followUp: 10 },
-            { text: "Site", followUp: 11 }
+            { text: "Yes", result: "<a href='https://example.com'>Natural features setbacks</a><br>" +
+          "<a href='https://example.com'>Open space requirements</a><br>" +
+          "<a href='https://example.com'>Temporary shoreline protections (sandbags, geotubes)</a><br><br>" +  
+          "<a href='https://example.com'>Natural shoreline requirements</a><br><br>" +
+          "Click the hyperlink above to learn more <strong>OR</strong><br>" +
+          "click 'Back' and choose 'No' to find a different tool."  },
+          { text: "No", followUp: 23 }
         ]
     },
     {
@@ -100,6 +105,7 @@ const questions = [
             { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>" +
           "<a href='https://example.com'>Site condos</a><br>" +
           "<a href='https://example.com'>Platting review</a><br><br>" +
+          "<a href='https://example.com'>Long lots</a><br><br>" +
           "Click the hyperlink above to learn more <strong>OR</strong><br>" +
           "click 'Back' and choose 'No' to find a different tool."  },
             { text: "No", followUp: 14 }
@@ -166,6 +172,13 @@ const questions = [
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Dynamic zoning</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
+        ]
+    },
+      {
+        question: "Are you looking to affect a site?", // Follow-up 23
+        answers: [
+            { text: "Yes", result: "<a href='https://example.com'>Retreat/building moving standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 11 }
         ]
     },
   ];
