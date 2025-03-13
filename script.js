@@ -74,15 +74,14 @@ const questions = [
           "<a href='https://example.com'>Natural shoreline requirements</a><br><br>" +
           "Click the hyperlink above to learn more <strong>OR</strong><br>" +
           "click 'Back' and choose 'No' to find a different tool."  },
-          { text: "No", followUp: 23 }
+          { text: "No", followUp: 10 }
         ]
     },
     {
-        question: "What is the character of the shoreline now? (Rocky, sandy, etc.)", // Follow-up 10
+        question: "Are you looking to affect a site?", // Follow-up 10
         answers: [
-            { text: "Rocky", result: () => window.location.href = "https://example.com/full-table" },
-            { text: "Sandy", result: () => window.location.href = "https://example.com/full-table" },
-            { text: "Other", result: () => window.location.href = "https://example.com/full-table" }
+            { text: "Yes", result: "<a href='https://example.com'>Retreat/building moving standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "No", followUp: 11 }
         ]
     },
     {
@@ -143,42 +142,35 @@ const questions = [
         question: "Do you have high-risk erosion areas?", // Follow-up 18
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>High-risk erosion area protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
+            { text: "No", followUp: 19 }
         ]
     },
       {
         question: "Are you concerned about flooding?", // Follow-up 19
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Vegetation requirement</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
+            { text: "No", followUp: 20 }
         ]
     },
       {
         question: "Are you concerned about water quality?", // Follow-up 20
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Stormwater management and/or green infrastructure</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
+            { text: "No", followUp: 21 }
         ]
     },
       {
         question: "Is it a priority to preserve or create access?", // Follow-up 21
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Impervious surface standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
+            { text: "No", followUp: 22 }
         ]
     },
       {
         question: "Do you have sensitive, constantly evolving environmental areas?", // Follow-up 22
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Dynamic zoning</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 18 }
-        ]
-    },
-      {
-        question: "Are you looking to affect a site?", // Follow-up 23
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Retreat/building moving standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 11 }
+            { text: "No", followUp:  }
         ]
     },
   ];
