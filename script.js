@@ -5,7 +5,7 @@ const questions = [
     {
         question: "Coastal Resilience Compendium Tools: Choose an option",
         answers: [
-            { text: "Find the best tool for you", followUp: 1 },
+            { text: "Find the best tool for me", followUp: 1 },
             { text: "View the full table of tools", result: () => window.location.href = "https://example.com/full-table" }
         ]
     },
