@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const questions = [
     {
-      question: "Coastal Resilience Compendium: Choose an option", // NOT A FOLLOWUP
+      question: "Coastal Resilience Compendium Tools:<br>Choose an option", // NOT A FOLLOWUP
       answers: [
         { text: "Find the best tool for you", followUp: 1 },
         { 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       question: "Is your shoreline of similar character throughout", // this is followup 1
       answers: [
-        { text: "Yes", result: "Your shoreline is uniform. Here’s what you can do..." },
+        { text: "Yes", result: result: () => window.location.href = "https://example.com/full-table" },
         { text: "No", followUp: 2 },
       ]
     },
