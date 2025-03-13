@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const questions = [
     {
-        question: "Coastal Resilience Compendium Tools:                                                                                                                                                                                                                                                                                                                                                       Choose an option",
+        question: "Coastal Resilience Compendium Tools: Choose an option",
         answers: [
             { text: "Find the best tool for me", followUp: 1 },
             { text: "View the full table of tools", result: () => window.location.href = "https://example.com/full-table" }
@@ -248,4 +248,14 @@ const questions = [
   });
 
   loadQuestion();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded and parsed");
+
+    const questionContainer = document.getElementById("question-container");
+
+    const questionText = `Coastal Resilience Compendium Tools: <br>Choose an option`;
+
+    questionContainer.innerHTML = questionText; // Renders <br> as a line break
 });
