@@ -15,21 +15,21 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       question: "Is your shoreline of similar character throughout", // this is followup 1
       answers: [
-        { text: "Yes", result: result: () => window.location.href = "https://example.com/full-table" },
+        { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
         { text: "No", followUp: 2 },
       ]
     },
     {
       question: "Can you change the underlying zoning?", // this is followup 2
       answers: [
-        { text: "Yes", result: result: () => window.location.href = "https://example.com/full-table" },
+        { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
         { text: "No", followUp: 3 },
       ]
     },
     {
       question: "Can you change the underlying zoning?", // this is followup 3
       answers: [
-        { text: "Yes", result: result: () => window.location.href = "https://example.com/full-table" },
+        { text: "Yes", result: () => window.location.href = "https://example.com/full-table" },
         { text: "No", followUp: 3 },
       ]
     },    
