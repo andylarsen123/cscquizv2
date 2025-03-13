@@ -12,7 +12,7 @@ const questions = [
     {
         question: "Is your shoreline of similar character throughout?", // Follow-up 1
         answers: [
-            { text: "Yes", result: "Shoreline setbacks<br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href="https://example.com">Shoreline setbacks</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 2 }
         ]
     },
