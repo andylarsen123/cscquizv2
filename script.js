@@ -170,7 +170,7 @@ const questions = [
         question: "Do you have sensitive, constantly evolving environmental areas?", // Follow-up 22
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Dynamic zoning</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp:  }
+            { text: "No", result: () => window.location.href = "https://example.com/full-table" }
         ]
     },
   ];
