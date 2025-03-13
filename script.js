@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const questions = [
     {
-      question: "Coastal Resilience Compendium Tools:<br>Choose an option", // NOT A FOLLOWUP
+      question: "<strong>Coastal Resilience Compendium Tools:</strong><br>Choose an option", // NOT A FOLLOWUP
       answers: [
         { text: "Find the best tool for you", followUp: 1 },
         { 
