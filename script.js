@@ -70,7 +70,7 @@ const questions = [
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Natural features setbacks</a><br>" +
           "<a href='https://example.com'>Open space requirements</a><br>" +
-          "<a href='https://example.com'>Temporary shoreline protections (sandbags, geotubes)</a><br><br>" +  
+          "<a href='https://example.com'>Temporary shoreline protections (sandbags, geotubes)</a><br>" +  
           "<a href='https://example.com'>Natural shoreline requirements</a><br><br>" +
           "Click the hyperlink above to learn more <strong>OR</strong><br>" +
           "click 'Back' and choose 'No' to find a different tool."  },
