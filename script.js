@@ -19,49 +19,49 @@ const questions = [
     {
         question: "Can you change the underlying zoning?", // Follow-up 2
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Shoreline overlay district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Shoreline overlay district</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 3 }
         ]
     },
     {
         question: "Do you anticipate new development or redevelopment?", // Follow-up 3
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Shoreline district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Shoreline district</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 4 }
         ]
     },
     {
         question: "Does development already exist?", // Follow-up 4
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Floodplain overlay district</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Floodplain overlay district</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 5 }
         ]
     },
     {
         question: "Do you have floodplains?", // Follow-up 5
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Land division regulations</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Land division regulations</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 6 }
         ]
     },
     {
         question: "Is your property at risk of erosion?", // Follow-up 6
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Bluff protections</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Bluff protections</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 7 }
         ]
     },
     {
         question: "Are you hearing from property owners that they want to protect their property?", // Follow-up 7
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Armoring prohibition</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Armoring prohibition</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 8 }
         ]
     },
     {
         question: "Is this a specific shoreline use like a marina?", // Follow-up 8
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Special shoreline uses</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Special shoreline uses</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 9 }
         ]
     },
@@ -80,21 +80,21 @@ const questions = [
     {
         question: "Are you looking to affect a site?", // Follow-up 10
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Retreat/building moving standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Retreat/building moving standards</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 11 }
         ]
     },
     {
         question: "Do you have capacity and/or desire to implement and review discretionary standards?", // Follow-up 11
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Design guidelines</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Design guidelines</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 12 }
         ]
     },
     {
         question: "Do you have existing development that doesn't meet the standards you have?", // Follow-up 12
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Nonconformities and variance standard</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Nonconformities and variance standard</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 13 }
         ]
     },
@@ -113,63 +113,63 @@ const questions = [
     {
         question: "Do you have wetlands?", // Follow-up 14
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Wetlands protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Wetlands protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 15 }
         ]
     },
     {
         question: "Do you have dunes?", // Follow-up 15
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Dune protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Dune protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 16 }
         ]
     },
     {
         question: "Do you have bluffs?", // Follow-up 16
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Bluff protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Bluff protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 17 }
         ]
     },
     {
         question: "Do you have sensitive environmental areas?", // Follow-up 17
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Sensitive environmental areas protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Sensitive environmental areas protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 18 }
         ]
     },
       {
         question: "Do you have high-risk erosion areas?", // Follow-up 18
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>High-risk erosion area protection</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>High-risk erosion area protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 19 }
         ]
     },
       {
         question: "Are you concerned about flooding?", // Follow-up 19
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Vegetation requirement</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Vegetation requirement</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 20 }
         ]
     },
       {
         question: "Are you concerned about water quality?", // Follow-up 20
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Stormwater management and/or green infrastructure</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Stormwater management and/or green infrastructure</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 21 }
         ]
     },
       {
         question: "Is it a priority to preserve or create access?", // Follow-up 21
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Impervious surface standards</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Impervious surface standards</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", followUp: 22 }
         ]
     },
       {
         question: "Do you have sensitive, constantly evolving environmental areas?", // Follow-up 22
         answers: [
-            { text: "Yes", result: "<a href='https://example.com'>Dynamic zoning</a><br><br>Click the hyperlink above to learn more <strong>OR</strong><br>click 'Back' and choose 'No' to find a different tool." },
+            { text: "Yes", result: "<a href='https://example.com'><strong>Dynamic zoning</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
             { text: "No", result: () => window.location.href = "https://example.com/full-table" }
         ]
     },
