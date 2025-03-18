@@ -6,7 +6,7 @@ const questions = [
         question: "Coastal Resilience Compendium Tools: Choose an option",
         answers: [
             { text: "Find the best tool for me", followUp: 1 },
-            { text: "View the full list of tools", result: () => window.location.href = "https://example.com/full-table" }
+            { text: "View the full list of tools", result: () => window.location.href = "https://www.planningmi.org/aws/MAP/pt/sp/cscss" }
         ]
     },
     {
