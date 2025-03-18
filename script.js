@@ -12,8 +12,8 @@ const questions = [
     {
         question: "Is your shoreline of similar character throughout?", // Follow-up 1
         answers: [
-            { text: "Yes", result: () => {window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } },
-            { text: "No", followUp: 2 }
+          { text: "Yes", result: () => { setTimeout(() => window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"), 0); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } },
+          { text: "No", followUp: 2 }
         ]
     },
     {
