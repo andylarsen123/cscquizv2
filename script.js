@@ -14,7 +14,7 @@ const questions = [
         answers: [
             { 
                 text: "Yes", 
-                result: "<a href='https://www.planningmi.org/aws/MAP/pt/sp/cscgi'><strong>Shoreline setbacks</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."
+                result: "<a href='https://www.planningmi.org/aws/MAP/pt/sp/cscgi' target='_blank'><strong>Shoreline setbacks</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."
             },
             { text: "No", followUp: 2 }
         ]
