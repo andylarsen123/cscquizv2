@@ -9,17 +9,17 @@ const questions = [
             { text: "View the full list of tools", result: () => window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscss", "_blank") }
         ]
     },
-   {
+    {
         question: "Is your shoreline of similar character throughout?", // Follow-up 1
         answers: [
-          { text: "Yes", result: () => { window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } },
-           { text: "No", followUp: 2 }
+            { text: "Yes", result: () => { window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } },
+            { text: "No", followUp: 2 }
         ]
     },
     {
         question: "Can you change the underlying zoning?", // Follow-up 2
         answers: [
-            { text: "Yes", result: () => `<a href="https://www.planningmi.org/aws/MAP/pt/sp/cscgi" target="_blank"><strong>Shoreline setbacks</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool.` }
+            { text: "Yes", result: () => `<a href="https://www.planningmi.org/aws/MAP/pt/sp/cscgi" target="_blank"><strong>Shoreline setbacks</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool.` },
             { text: "No", followUp: 3 }
         ]
     },
@@ -69,12 +69,12 @@ const questions = [
         question: "Are you looking to affect a district?", // Follow-up 9
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>Natural features setbacks</a><br>" +
-          "<a href='https://example.com'>Open space requirements</a><br>" +
-          "<a href='https://example.com'>Temporary shoreline protections (sandbags, geotubes)</a><br>" +  
-          "<a href='https://example.com'>Natural shoreline requirements</a><br><br>" +
-          "Click the hyperlink above to learn more <strong>OR</strong><br>" +
-          "click 'Back' and choose 'No' to find a different tool."  },
-          { text: "No", followUp: 10 }
+              "<a href='https://example.com'>Open space requirements</a><br>" +
+              "<a href='https://example.com'>Temporary shoreline protections (sandbags, geotubes)</a><br>" +  
+              "<a href='https://example.com'>Natural shoreline requirements</a><br><br>" +
+              "Click the hyperlink above to learn more <strong>OR</strong><br>" +
+              "click 'Back' and choose 'No' to find a different tool."  },
+            { text: "No", followUp: 10 }
         ]
     },
     {
@@ -102,11 +102,11 @@ const questions = [
         question: "Do you have lots of record?", // Follow-up 13
         answers: [
             { text: "Yes", result: "<a href='https://example.com'>PUDs and cluster development</a><br>" +
-          "<a href='https://example.com'>Site condos</a><br>" +
-          "<a href='https://example.com'>Platting review</a><br><br>" +
-          "<a href='https://example.com'>Long lots</a><br>" +
-          "Click the hyperlink above to learn more <strong>OR</strong><br>" +
-          "click 'Back' and choose 'No' to find a different tool."  },
+              "<a href='https://example.com'>Site condos</a><br>" +
+              "<a href='https://example.com'>Platting review</a><br><br>" +
+              "<a href='https://example.com'>Long lots</a><br>" +
+              "Click the hyperlink above to learn more <strong>OR</strong><br>" +
+              "click 'Back' and choose 'No' to find a different tool."  },
             { text: "No", followUp: 14 }
         ]
     },
@@ -138,41 +138,7 @@ const questions = [
             { text: "No", followUp: 18 }
         ]
     },
-      {
-        question: "Do you have high-risk erosion areas?", // Follow-up 18
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'><strong>High-risk erosion area protection</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 19 }
-        ]
-    },
-      {
-        question: "Are you concerned about flooding?", // Follow-up 19
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'><strong>Vegetation requirement</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 20 }
-        ]
-    },
-      {
-        question: "Are you concerned about water quality?", // Follow-up 20
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'><strong>Stormwater management and/or green infrastructure</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 21 }
-        ]
-    },
-      {
-        question: "Is it a priority to preserve or create access?", // Follow-up 21
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'><strong>Impervious surface standards</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", followUp: 22 }
-        ]
-    },
-      {
-        question: "Do you have sensitive, constantly evolving environmental areas?", // Follow-up 22
-        answers: [
-            { text: "Yes", result: "<a href='https://example.com'><strong>Dynamic zoning</strong></a><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool." },
-            { text: "No", result: () => window.location.href = "https://example.com/full-table" }
-        ]
-    },
+    {
   ];
 
   const questionEl = document.getElementById("question");
