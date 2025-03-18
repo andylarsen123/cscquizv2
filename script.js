@@ -9,12 +9,12 @@ const questions = [
             { text: "View the full list of tools", result: () => window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscss", "_blank") }
         ]
     },
-    {
-        question: "Is your shoreline of similar character throughout?", // Follow-up 1
-        answers: [
-            { text: "Yes", result: () => { window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } }
+   {
+       question: "Is your shoreline of similar character throughout?", // Follow-up 1
+       answers: [
+            { text: "Yes", result: () => { window.open("https://www.planningmi.org/aws/MAP/pt/sp/cscgi", "_blank"); return "<strong>Shoreline setbacks</strong><br><br>Click the hyperlink above to learn more.<br><br><strong>Not a good solution for you?</strong> Click 'Back' and choose 'No' to find a different tool."; } },
             { text: "No", followUp: 2 }
-        ]
+       ]
     },
     {
         question: "Can you change the underlying zoning?", // Follow-up 2
