@@ -138,7 +138,6 @@ const questions = [
             { text: "No", followUp: 18 }
         ]
     },
-    {
   ];
 
   const questionEl = document.getElementById("question");
